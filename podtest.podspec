@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/Gimungagap/podtest.git" }
-  s.source_files = "podtest", "podtest/**/*"
+  s.source_files = "podtest", "podtest/Code/*"
   s.requires_arc = true
 
 end
