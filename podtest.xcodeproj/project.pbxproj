@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3790AEA51BEBBCF000A54F35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3790AEA41BEBBCF000A54F35 /* main.m */; };
 		3790AEBC1BEBBD6A00A54F35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3790AEBB1BEBBD6A00A54F35 /* AppDelegate.m */; };
-		3790AEC21BEBBDC400A54F35 /* NSData+ELNHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3790AEC11BEBBDC400A54F35 /* NSData+ELNHelpers.m */; };
+		3790AEC61BF0B3CF00A54F35 /* NSData+ELNHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 3790AEC51BF0B3CF00A54F35 /* NSData+ELNHelpers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +18,8 @@
 		3790AEB41BEBBCF000A54F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3790AEBA1BEBBD6A00A54F35 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3790AEBB1BEBBD6A00A54F35 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3790AEC01BEBBDC400A54F35 /* NSData+ELNHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ELNHelpers.h"; sourceTree = "<group>"; };
-		3790AEC11BEBBDC400A54F35 /* NSData+ELNHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ELNHelpers.m"; sourceTree = "<group>"; };
+		3790AEC41BF0B3CF00A54F35 /* NSData+ELNHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ELNHelpers.h"; sourceTree = "<group>"; };
+		3790AEC51BF0B3CF00A54F35 /* NSData+ELNHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ELNHelpers.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +36,7 @@
 		3790AE971BEBBCF000A54F35 = {
 			isa = PBXGroup;
 			children = (
+				3790AEC31BF0B3CF00A54F35 /* lib */,
 				3790AEA21BEBBCF000A54F35 /* podtest */,
 				3790AEA11BEBBCF000A54F35 /* Products */,
 			);
@@ -52,8 +53,6 @@
 		3790AEA21BEBBCF000A54F35 /* podtest */ = {
 			isa = PBXGroup;
 			children = (
-				3790AEC01BEBBDC400A54F35 /* NSData+ELNHelpers.h */,
-				3790AEC11BEBBDC400A54F35 /* NSData+ELNHelpers.m */,
 				3790AEBA1BEBBD6A00A54F35 /* AppDelegate.h */,
 				3790AEBB1BEBBD6A00A54F35 /* AppDelegate.m */,
 				3790AEB41BEBBCF000A54F35 /* Info.plist */,
@@ -68,6 +67,15 @@
 				3790AEA41BEBBCF000A54F35 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3790AEC31BF0B3CF00A54F35 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				3790AEC41BF0B3CF00A54F35 /* NSData+ELNHelpers.h */,
+				3790AEC51BF0B3CF00A54F35 /* NSData+ELNHelpers.m */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3790AEBC1BEBBD6A00A54F35 /* AppDelegate.m in Sources */,
-				3790AEC21BEBBDC400A54F35 /* NSData+ELNHelpers.m in Sources */,
+				3790AEC61BF0B3CF00A54F35 /* NSData+ELNHelpers.m in Sources */,
 				3790AEA51BEBBCF000A54F35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +274,7 @@
 				3790AEB91BEBBCF000A54F35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
