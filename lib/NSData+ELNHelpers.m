@@ -9,6 +9,8 @@
 #import "NSData+ELNHelpers.h"
 #import <CommonCrypto/CommonDigest.h>
 
+// 0.0.1
+
 @implementation NSData (ELNHelpers)
 
 - (NSString *)eln_MD5 {
