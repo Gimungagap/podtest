@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		37F035421CB6E0090065EF1B /* podtestf.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F035411CB6E0090065EF1B /* podtestf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37F0354F1CB6E0710065EF1B /* NSData+ELNHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F0354D1CB6E0710065EF1B /* NSData+ELNHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37F0354F1CB6E0710065EF1B /* NSData+ELNHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F0354D1CB6E0710065EF1B /* NSData+ELNHelpers.h */; };
 		37F035501CB6E0710065EF1B /* NSData+ELNHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F0354E1CB6E0710065EF1B /* NSData+ELNHelpers.m */; };
 		37F035581CB6E0920065EF1B /* podtestfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F035571CB6E0920065EF1B /* podtestfTests.m */; };
 		37F0355A1CB6E0920065EF1B /* podtestf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F0353F1CB6E0090065EF1B /* podtestf.framework */; };
