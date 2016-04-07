@@ -2,38 +2,24 @@
 .DS_Store
  
 # Xcode
+*.xccheckout
+*.DS_Store
+*xcuserdata*
 build/
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-profile
-*.moved-aside
-DerivedData
-*.hmap
-*.ipa
-*.xcbkptlist
-*.xcuserstate
+.idea
  
 !*/xcshareddata/*
 *.xccheckout
 */xcuserdata/*
+
+# Carthage
+Carthage/Build
  
 # fastlane
-fastlane/report.xmls
+fastlane/report.xml
+fastlane/*report*
 *app.dSYM.zip
  
-# Bundler
-.bundle
- 
-# Pods
-Pods/
-
-#Ruby
-.ruby-version
-Gemfile
-Gemfile.lock
+# sonar
+*sonar-reports*
+*compile_commands.json
