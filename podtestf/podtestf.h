@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char podtestfVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <podtestf/PublicHeader.h>
 
-#import "NSData+ELNHelpers"
+#import "NSData+ELNHelpers.h"
